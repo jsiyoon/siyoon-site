@@ -1,0 +1,128 @@
+.container {
+    width: 902px;
+    height: 600px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.welcome p{
+    font-size: 47px;
+    float:center;
+    font-family: console;
+    margin-left: 297px;
+}
+
+/* style-layout */
+body{margin:0; padding:0; line-height:1.2em; font-size:0.75em; line-height:1.2em;}
+.wrap{margin:0; margin-right:auto; margin-left:auto;}
+header{vertical-align:middle;}
+.left{float:left;}
+.center{float:center;}
+.right{float:right;}
+#logo{float:left; vertical-align:middle;margin:30px 0 0 20px;}
+.clear{clear:both;}
+hr{clear:both;}
+nav{margin:0 0 20px 0; float:left;}
+nav ul li{float:left; margin:0 5px; list-style:name;}
+nav a{display:block; padding:5px;}
+footer #copyright{ margin:20px 0 0 10px; float:left;}
+footer #SNS{margin:10px 20px 0 0; float:right;}
+aside{margin:5px;}
+article{margin:5px 0 10px 0;}
+#login{margin:30px;}
+#login fieldset span{display:inline-block;}
+#signup{margin:30px;}
+#signup field span{display: inline-block;}
+#signup field input{vertical-align: middle;}
+#order{margin:30px;}
+.booklist{margin:10px; padding:5px;}
+.booklist .head{margin:15px 0 0 10px;}
+.booklist ul li{float:right; margin: 10px 15px 10px 0px; list-style-type:none;}
+
+.introduce{margin:10px; padding:5px;}
+.introduce .head{margin:15px 0 0 10px;}
+.introduce .left-li ul li{margin: 10px 15px 10px 50px;}
+.introduce .right-li ul ii{margin: 10px 15px 10px 0px;}
+
+.music{margin:10px; padding:5px;}
+
+.introduce .left-li{float: left; width: 50%;}
+.introduce .right-li{float: right; width: 40%;}
+
+/* style size */
+.wrap{width:700px; min-height:600px;}
+header{height:80px;}
+nav{width:700px;}
+nav a{height:20px;}
+footer{height: 70px;}
+
+#login fieldset span{width:80px;}
+#signup fieldset span{width:90px;}
+#order table td, th{width:85px; height:30px;}
+
+.booklist{height: 462px;}
+.booklist ul li{width:150px; height:170px;}
+.booklist ul li img{height:120px; width: 80px;}
+
+.introduce{height: 462px;}
+.right-li ul li img{width:100px; height:100px;}
+
+
+/* style-presentation*/
+body{background-color: rgba(255, 192, 203, 0.596); font-size: 0.75em; line-height: 1.2em;}
+img{ border:none;}
+.wrap{text-align: left; background-color: white;}
+a{text-decoration: none;}
+#logo{color:rgb(126, 37, 138); font-size: 48px;}
+header .right a:hover{color: white;}
+input{color:rgb(253, 148, 213);}
+button{color:rgb(253, 148, 213);}
+nav{background-color: rgb(253, 155, 224);}
+nav ul{list-style:none; font-family: Verdana, Geneva, sans-serif; font-size:14px;
+font-weight:bold; color:#ff0099;}
+nav a{text-decoration:none; color:#000000;border-style: hidden hidden solid hidden;
+border-color:transparent;}
+nav a:hover{color:#df5ae4; border-color:rgb(220, 95, 236);}
+footer #copyright{font-family: consolas;}
+footer #SNS a{text-decoration:none;}
+#login, #signup, #order{background-color: white;}
+#order .head{font-size:16px; font-weight: bolder; text-align: center;}
+#order table{border-collapse: collapse;}
+#order table td,th{text-align: center;}
+#order input{background-color:transparent;}
+#order table td, th, tr{border:1px solids silver;}
+.booklist{font-family:arial; background-color: rgba(255, 192, 203, 0.425);
+background-image: url(back4.jpg); background-repeat: no-repeat;
+background-position: 480px 404px; background-size: 100px 100px; border:solid 3px rgb(253, 152, 214); border-radius:10px; }
+.booklist ul li{font-size: 12px; list-style-type: none;}
+.booklist ul li img{border: solid; border-color: rgb(247, 244, 244); border-width: 1px;}
+.introduce{font-family:arial; background-color: rgba(255, 192, 203, 0.562);
+background-image: url(라이언1.jpg); background-repeat: no-repeat;
+background-size: 500px 500px; background-position: 50px 150px; border:solid 3px rgb(176, 65, 180); border-radius:10px;
+opacity: 0.3!; filter:alpha(opacity=30); }
+.music{font-family:arial; background-color: rgba(255, 192, 203, 0.863)0;
+background-image: url(b3.jpg), url(b2.jpg); background-repeat: no-repeat;
+background-position: 220px 340px, 180px 750px; background-size:150px 150px, 220px 220px;border:solid 3px rgb(176, 65, 180); border-radius:10px; }
+
+#order{background-color: white; background-repeat: no-repeat;
+    background-image: url(back5.jpg); background-position: 170px 400px; 
+background-size: 269px 100px; }
+
+
+.blinking{
+	-webkit-animation:blink 1.5s ease-in-out infinite alternate;
+    -moz-animation:blink 1.5s ease-in-out infinite alternate;
+    animation:blink 1.5s ease-in-out infinite alternate;
+}
+@-webkit-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@-moz-keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+@keyframes blink{
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
